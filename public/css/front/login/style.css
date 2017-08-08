@@ -1,0 +1,519 @@
+﻿body{
+  margin: 0px;
+  padding: 0px;
+
+  font-family: 微软雅黑;
+}
+
+html {
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+}
+a,a:hover{color:#FFF;text-decoration:none}
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+
+}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+nav ul {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+h1 {
+  width: 500px;
+  margin: 100px auto 20px;
+  color: #f0f0f0;
+  text-align: center;
+}
+
+.nav {
+  width:1100px;
+  margin: 0 auto;
+
+  color: #f0f0f0;
+}
+.nav a {
+  display: block;
+  padding: 0 16px;
+  line-height: inherit;
+  cursor: pointer;
+  font-size:14px;
+}
+.nav_menu {
+  line-height: 45px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.nav_menu-item {
+  display: inline-block;
+  position: relative;
+}
+.nav_menu-item:hover {
+  background-color: #1794ba;
+}
+.nav_menu-item:hover .nav_submenu {
+  display: block;
+}
+.nav_submenu {
+  font-weight: 300;
+  text-transform: none;
+  display: none;
+  position: absolute;
+  width: 220px;
+  background-color: #1794ba;
+  z-index: 1000;
+}
+.nav_submenu-item:hover {
+  background: rgba(0, 0, 0, 0.1);
+}
+.Btn_LoginPass {
+    background-color:#f0433d;
+    width:77px;
+    height:32px;
+    border:1px solid#f0433d;
+    color:#FFF;
+    font-size:12px;
+    cursor:pointer;
+}
+.Btn_DealPass {
+    background-color:#5db75d;
+    width:77px;
+    height:32px;
+    border:1px solid#5db75d;
+    color:#FFF;
+    font-size:12px;
+    cursor:pointer;
+}
+.Btn_TEL {
+    background-color:#ffaf3f;
+    width:77px;
+    height:32px;
+    border:1px solid#ffaf3f;
+    color:#FFF;
+    font-size:12px;
+    cursor:pointer;
+}
+.Btn_MAIL {
+    background-color:#45bcdf;
+    width:77px;
+    height:32px;
+    border:1px solid#45bcdf;
+    color:#FFF;
+    font-size:12px;
+    cursor:pointer;
+}
+.Btn_UserInfo {
+    background-color:#ff0000;
+    width:77px;
+    height:32px;
+    border:1px solid#ff0000;
+    color:#FFF;
+    font-size:12px;
+    cursor:pointer;
+}
+.Btn_Synchro {
+    background-color:#ff0000;
+    width:77px;
+    height:32px;
+    border:1px solid#ff0000;
+    color:#FFF;
+    font-size:12px;
+    cursor:pointer;
+}
+.Btn_Bank {
+    background-color:#ffaf3f;
+    width:77px;
+    height:32px;
+    border:1px solid#ffaf3f;
+    color:#FFF;
+    font-size:12px;
+    cursor:pointer;
+}
+.Btn_Bank1 {
+    background-color:#ffaf3f;
+    width:90px;
+    height:32px;
+    border:1px solid#ffaf3f;
+    color:#FFF;
+    font-size:12px;
+    cursor:pointer;
+}
+.div_Style_Center{
+    height:auto;
+    width:1100px;
+    border-radius:5px 5px 5px 5px;
+    background-color:white;
+
+    margin:auto;
+    overflow:hidden; 
+    padding-bottom:20px;
+}
+.zi1_Revise_Show{ float:left;width:60px; height:30px;color: #FFF;  font-size: 12px;line-height: 30px; text-align: center;background: #ffaf3f;}
+.zi1_Revise_Yes{ float:left;width:60px; height:30px;margin:0 10px;color: #FFF;  font-size: 12px;line-height: 30px; text-align: center;background: #ffaf3f;cursor:pointer;}
+.zi1_Revise_No{ float:left;width:60px; height:30px;margin:0 10px;color: #FFF;  font-size: 12px;line-height: 30px; text-align: center;background: #808080;cursor:pointer;}
+
+.MySta_Ass {
+    float:left;
+    width:20%;
+    height:90px;
+    line-height:70px;
+}
+.MySta_Ass1 {
+   float:left;
+   width:100%;
+   height:40px;
+   line-height:40px;
+   text-align:center;
+   color: #059765;
+   font-weight: bold;
+}
+.MySta_Acc_Title {
+   float:left;width:15%;
+   text-align:center;
+   font-family:Arial, Helvetica, sans-serif;
+   font-size:12px; 
+   color:#525557;
+   line-height:45px;
+}
+.MySta_Acc_Con {
+   float:left;
+   width:85%;
+   font-family:Arial, Helvetica, sans-serif;
+   font-size:12px; 
+   color:#525557;
+   line-height:45px;
+}
+.MySta_Acc_Con1 {
+   float:left;
+   width:45%;
+   font-family:Arial, Helvetica, sans-serif;
+   font-size:12px; 
+   color:#525557;
+   line-height:45px;
+}
+.MySta_Acc_Con2 {
+   float:left;
+   width:40%;
+   font-family:Arial, Helvetica, sans-serif;
+   font-size:12px; 
+   color:#525557;
+   line-height:45px;
+}
+.MySta-Acc {
+    width:100%;
+    height:45px;
+    border-bottom:1px solid#f0f0f0;
+}
+.My_Acc_Img {
+    width:194px;
+    height:327px;
+    float:left;
+    text-align:center;
+}
+.My_Acc_Con4 {
+    width:883px;
+    height:314px;
+    float:left;
+    margin-top:20px;
+    border:1px solid#808080;
+    font-family:Arial, Helvetica, sans-serif;
+   font-size:12px; 
+   color:#525557;
+}
+.My_Acc_Img5 {
+    width:194px;
+    height:284px;
+    float:left;
+    text-align:center;
+}
+.My_Acc_Con5 {
+    width:883px;
+    height:284px;
+    float:left;
+    margin-top:20px;
+}
+.Pos_title {
+    float:left;
+    line-height:36px;
+     background-color:dodgerblue; 
+     text-align:center;
+     height:36px;
+     color:#FFF;
+    font-size:14px;
+    cursor:pointer;
+    border:1px solid #FFF;
+}
+.Pos_Con {
+    float:left;
+    line-height:36px;
+     background-color:#f7f7f7; 
+     text-align:center;
+     height:36px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px; color:#525557;
+    border:1px solid#FFF;
+    
+}
+.div_Deal {
+    width:60px;
+    height:30px;
+    text-align:center;
+    color:white;
+    margin-left:35px;
+}
+.Pos_title2 {
+    float:left;
+    width:10%; 
+    line-height:36px;
+    background-color:dodgerblue; 
+    text-align:center;
+    height:36px;
+    color:#FFF;
+    font-size:14px;
+    cursor:pointer;
+    border:1px solid #FFF;
+}
+.Pos_Con2 {
+    float:left;
+    width:10%; 
+    line-height:36px;
+     background-color:#f7f7f7; 
+     text-align:center;
+     height:36px;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size:12px; color:#525557;
+    border:1px solid#FFF;
+    
+}
+.DealReport_left {
+    width:50%;
+    float:left;
+    text-align:left;
+}
+.DealReport_reght {
+    width:40%;
+    float:right;
+    text-align:right;
+    color:#808080;
+}
+.DealReport_left_lv {
+    width:50%;
+    float:left;
+    text-align:left;
+    color:#3aae01;
+}
+
+.DealReport_left_red {
+    width:50%;
+    float:left;
+    text-align:left;
+    color:#ff5d5b;
+}
+
+.DealReport_left_blue {
+    width:50%;
+    float:left;
+    text-align:left;
+    color:#007aff;
+}
+.UserDepost_PAYTYPE {
+    float:left;
+    width:270px;
+    text-align:center;
+    cursor:pointer;
+}
+.Position_view {
+    width:80px;
+    height:30px;
+    line-height:30px;
+    float:left;
+    text-align:center;
+    border:1px solid #ff0000;
+    border-right:0px;
+    border-radius:5px 0px 0px 5px;
+    margin-top:20px;
+    font-size:12px;
+    color:#ff0000;
+    cursor:pointer;
+}
+.Position_viewSel {
+    width:80px;
+    height:30px;
+    line-height:30px;
+    float:left;
+    text-align:center;
+    background-color: #ff0000;
+    border-right:0px;
+    border-radius:5px 0px 0px 5px;
+    margin-top:20px;
+    font-size:12px;
+    color:white;
+    cursor:pointer;
+}
+.Position_Table {
+   width:80px;
+    height:30px;
+    line-height:30px;
+    float:left;
+    text-align:center;
+    border:1px solid #ff0000;
+    border-right:0px;
+    margin-top:20px;
+    font-size:12px;
+    color:#ff0000;
+    cursor:pointer;
+}
+.Position_TableSel {
+   width:80px;
+    height:30px;
+    line-height:30px;
+    float:left;
+    text-align:center;
+    background-color: #ff0000;
+    border-right:0px;
+    margin-top:20px;
+    font-size:12px;
+    color:white;
+    cursor:pointer;
+}
+.Position_All {
+   width:80px;
+    height:30px;
+    line-height:30px;
+    float:left;
+    text-align:center;
+    border:1px solid #ff0000;
+    border-radius:0px 5px 5px 0px;
+    margin-top:20px;
+    font-size:12px;
+    color:#ff0000;
+    cursor:pointer;
+}
+.Position_AllSel {
+   width:80px;
+    height:30px;
+    line-height:30px;
+    float:left;
+    text-align:center;
+    background-color: #ff0000;
+    border-radius:0px 5px 5px 0px;
+    margin-top:20px;
+    font-size:12px;
+    color:white;
+    cursor:pointer;
+}
+.Position_price {
+    float:left;
+    width:100px;
+    height:37px;
+    line-height:37px;
+    margin-left:20px;
+    text-align:center;
+    color:#FFF;
+    font-size:14px;
+}
+.input1 {  width:250px;  height: 30px;  border: 1px solid #ccc;  font-size: 12px;  color: #000;  line-height:30px; 
+            outline: none; background: none; }
+
+div, ul, li, dt, dl, dd, h1, h2, h3, h4, h5, h6, img, p, span {
+            border-style: none;
+            border-color: inherit;
+            border-width: 0px;
+            padding: 0;
+            list-style-type: none;
+            margin-left: auto;
+            margin-top: 0;
+            margin-bottom: 0;
+            font-weight: normal;
+        }
+
+.clear {
+            clear: both;
+            font-size: 1px;
+            height: 0px;
+            line-height: 0px;
+            overflow: hidden;
+        }
+.mask {
+        position: absolute;
+        top: 0px;
+        filter: alpha(opacity=60);
+        background-color: #777;
+        z-index: 1002;
+        left: 0px;
+        opacity: 0.8;
+        -moz-opacity: 0.5;
+    }
+
+    .mask_img {
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        margin: auto;
+    }
+.Page {
+    border:1px  solid #ffaf3f;
+    width:60px;
+    height:35px;
+    line-height:35px;
+    margin-left:20px;
+    float:left;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px; color:#525557;
+    font-weight:bold;
+    cursor:pointer;
+    text-align:center;
+    background-color:#ffaf3f;
+    color:white;
+}
+.Page:hover {
+   color:blue;
+}
+.Page_Con {
+    height:35px;
+    line-height:35px;
+    margin-right:0px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px; color:#525557;
+}
+.dep_Bank {
+    float:left;
+    width:164px;
+    height:44px;
+    cursor:pointer;
+}
+    .dep_Bank:hover {
+        border:2px solid#ff6a00;
+}
+    .dep_BankSel {
+    float:left;
+    width:164px;
+    height:44px;
+    cursor:pointer;
+    border:2px solid#ff5d5b;
+}

@@ -1,0 +1,25 @@
+.choosebtn {
+    color: white;
+    background-color: #059765;
+    border-color: #059765;
+}
+.title {
+    background-color: #059765;
+    color: white;
+    text-align: center;
+}
+.dataTable {
+    text-align: center;
+}
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open .dropdown-toggle.btn-default {
+    color: white;
+    background-color: #059765;
+    border-color: #059765;
+}
+.btn .badge {
+    background-color: red;
+}
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
+    background-color: #059765;
+    border-color: #059765;
+}

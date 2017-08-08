@@ -1,0 +1,52 @@
+/* CSS Document */
+body { margin:0; padding:0; line-height:24px; font-family:'Microsoft YaHei'; font-size:14px; background:#fff;}
+div,ul,li,dt,dl,dd,h1,h2,h3,h4,h5,h6,h7,img,p,span{ border-style: none;
+    border-color: inherit;
+    border-width: 0px;
+    padding: 0;
+    list-style-type:none;
+    margin-left: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: normal;
+}
+
+img{display:block; margin: 0 auto;}
+
+/* Link */
+a:link { text-decoration:none;}
+a:visited {text-decoration:none;}
+a:hover { text-decoration:none;}
+a:active { border:0px; background-color:Transparent;}
+
+a{blr:expression(this.onFocus=this.blur()); outline:none;}
+p{text-indent:28px; }
+.blank5{ width:100%; height:5px; clear:both;}
+.blank10{ width:100%; height:10px; clear:both;}
+.blank15{ width:100%; height:15px; clear:both;}
+.blank20{ width:100%; height:20px; clear:both;}
+.blank25{ width:100%; height:25px; clear:both;}
+.blank30{ width:100%; height:30px; clear:both;}
+.blank40{ width:100%; height:40px; clear:both;}
+.blank50{ width:100%; height:50px; clear:both;}
+.blank60{ width:100%; height:60px; clear:both;}
+
+
+
+/*登录*/
+
+.login{width:1100px; height:auto; margin:0 auto;overflow: hidden; }
+.kuang{ float:right; width:500px; height:auto;  margin-top: 50px;  padding:30px 0; background-color: /*rgb(131, 194, 237)*/;  overflow: hidden;}
+
+.kuang h3{width:100%; height:auto; line-height: 40px; font-size: 16px; font-weight: bold;  color:#fff;text-align: center;}
+.kuang ul{width:360px; height:auto;  margin:0 auto;background:#fff;}
+.kuang ul li{width:320px; height:50px; padding: 10px; margin:0 auto; border-bottom: 1px solid #000; }
+.kuang ul li:last-child{border-bottom: none;}
+.login_left{float: left;  width:30px; height:30px;  margin:0 10px;}
+.login_left img{width:24px; height:24px; margin:0 auto;}
+.input0 {  width:350px;  height: 30px;  border: 1px solid #ccc;  font-size: 18px;  color: #000;  line-height: 27px;  outline: none;  padding-left: 10px;  background: none;  border-radius: 4px;  }
+
+.login1{width:360px; height:auto;  margin:0 auto; font-size:12px; color:#fff;}
+.login1a , .login1b , .login1c{float: left; margin-right:50px;}
+.login2{width:360px; height:40px; margin:0 auto;}
+.login2a{width:100%; height:40px; margin:0 auto; cursor:pointer; border-radius: 5px; outline: none;background: #67cb33; border: none; color:#fff; font-size: 16px; line-height: 40px;}
